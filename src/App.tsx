@@ -1,8 +1,10 @@
+import { Experience } from './components/3d'
 import MailMe from './components/mailme'
 
 function App() {
   return (
-    <div className="grid place-items-center min-h-screen">
+    <div className="flex flex-col items-center justify-center  min-h-screen">
+      <Experience />
       <MailMe />
     </div>
   )
